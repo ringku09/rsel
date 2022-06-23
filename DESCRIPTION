@@ -1,0 +1,20 @@
+Package: tidysum
+Title: Summary statitics in tidy way 
+Version: 0.1.0
+Authors@R: c( 
+    person("Masud", "Rana", , "ringku.bioinfo@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person("Sadia", "Afrin", , "rakhi.orin@gmail.com", role = "aut",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+           )
+Description: This package provide a set of function for summary statistics. The output
+    will present in a tidy way.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    dplyr,
+    magrittr,
+    rlang,
+    stats
